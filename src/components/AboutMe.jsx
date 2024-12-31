@@ -16,11 +16,11 @@ export default function AboutMe(){
         frameworks, libraries like the following:
         </p>
         
-        <ul className="flex md:grid md:grid-cols-3 gap-4 flex-col mt-3 ">
+        <ul className="flex md:grid lg:grid-cols-3 gap-4 flex-col mt-3 mb-3">
             {lenguages.map(lenguage=>{
                 return <Lenguage
                     key={lenguage.id}
-                    nameis={lenguage.lenguage}
+                    nameis={lenguage.name}
                     image={lenguage.image}
                     description={lenguage.description}
                     frameworks={lenguage.frameworks}
@@ -28,7 +28,32 @@ export default function AboutMe(){
                 />
             })}
         </ul>
-            
+        <p className="text-gray-300 font-mono text-sm sm:text-base md:text-base lg:text-lg xl:text-lg 2xl:text-xl text-justify">
+            Like person, I consider myself a good individual because I enjoy helping others whenever I can. 
+            I value empathy, teamwork, and responsibility, which drive me in both my personal and professional life. 
+            Outside of programming. I enjoy:
+        </p>
+        <ul className="text-gray-300 font-mono text-sm sm:text-base md:text-base lg:text-lg xl:text-lg 2xl:text-xl text-justify mt-4 mb-4">
+            <li>
+            ⚽ Playing and watching soccer, specially I am fan of CD Guadalajara.
+            </li>
+            <li>
+            🌎 Searching topics about the past of the world like dinosaurs also biomes and things about space.
+            </li>
+            <li>
+            🎵 Listening music everyday in special regional mexican.
+            </li>
+            <li>
+            🎮 Playin videogames such as Minecraft, Forntite and anothers with my friends.
+            </li>
+        </ul>
+        <p className="text-gray-300 font-mono text-sm sm:text-base md:text-base lg:text-lg xl:text-lg 2xl:text-xl text-justify">
+            My goal is to grow both as a developer and as a person, always striving to make a positive impact on the world.
+        </p>
+        <h3 className="text-gray-300 font-mono text-center text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-4xl mt-4"> 
+            "I BELIEVE THAT ALL IS POSSIBLE"
+        </h3>
+
     </section>
     </>
 

@@ -6,6 +6,7 @@ import icon_postgresql from '../assets/postgresql.svg';
 const languages = [
     {
         id: 1,
+        name: 'C++',
         image: icon_cpp,
         frameworks: 'N/A',
         libraries: 'N/A',
@@ -13,6 +14,7 @@ const languages = [
     },
     {
         id: 2,
+        name:'Python',
         image: icon_python,
         frameworks: 'N/A',
         libraries: 'Tkinter, PyQt (PySide2)',
@@ -20,6 +22,7 @@ const languages = [
     },
     {
         id: 3,
+        name:'JavaScript',
         image: icon_js,
         frameworks: 'Express.js, React native',
         libraries: 'React.js, React Router, Motion, Alert.js, Chart.js, JsPDF, Supabase, JWT.',
@@ -27,6 +30,7 @@ const languages = [
     },
     {
         id: 4,
+        name:'PostgreSQL',
         image: icon_postgresql,
         frameworks: 'N/A',
         libraries: 'N/A',
