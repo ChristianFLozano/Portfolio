@@ -11,7 +11,7 @@ export default function AboutMe(){
         </h2>
         <hr className="h-2"/>
         <p className="text-gray-300 font-mono text-sm sm:text-base md:text-base lg:text-lg xl:text-lg 2xl:text-xl text-justify"> 
-        I am Jhovany, I am a CUCEI informatic engineering student, I am 20 years old and I love learning new things about programming especially about 
+        I am Jhovany a CUCEI informatic engineering student, I am 20 years old and I love learning new things about programming especially about 
         web development (front-end). I started in the computer world with C in college, but over time I've been learning more language and tools such as
         frameworks, libraries like the following:
         </p>

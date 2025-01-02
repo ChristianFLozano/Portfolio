@@ -9,7 +9,7 @@ export default function Lenguage(props){
         >
             <img className="w-8/12" src={props.image} alt="cpp icon" />
             <div className="border-gray-400 border-2 p-1 border-dashed rounded-lg text-xl">
-                <div className="w-full h-6 bg-white grid grid-cols-[1fr_1fr] sm:grid-cols-[.5fr_1fr] grid-rows-1 font-mono text-black text-[11px] md:text-[15px] text-center items-center">
+                <div className="w-full h-6 bg-white grid grid-cols-[1fr_1fr] sm:grid-cols-[.5fr_1fr] grid-rows-1 font-mono text-black text-[8px] md:text-[10px] text-center items-center">
                     <div>
                         <p>GNU Nano 7.2</p>
                     </div>
