@@ -1,4 +1,3 @@
-import React from "react";
 import lenguages from "../maps/lenguage";
 import Lenguage from "./Lenguage";
 
