@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
@@ -17,7 +17,7 @@
     "@mui/icons-material": "^6.3.0",
     "@mui/material": "^6.3.0",
     "@tailwindcss/vite": "^4.3.3",
-    "motion": "^11.15.0",
+    "motion": "^11.18.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
