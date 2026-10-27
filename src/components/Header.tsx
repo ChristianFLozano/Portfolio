@@ -2,7 +2,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import GitHubIcon from '@mui/icons-material/GitHub';
-import profilePic from '../assets/profilePic.jpg'
+import profilePic from '../assets/profilePic.webp'
 
 
 const socialLinks = [
