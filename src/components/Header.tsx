@@ -28,8 +28,8 @@ const socialLinks = [
     }
 ]
 
-export default function Header() {
-    return <header className="flex gap-3 w-full h-1/4 mt-7 ">
+export function Header() {
+    return <header className="flex gap-3 w-full h-auto mt-7 ">
         <img src={profilePic} alt="Profile pic" className="object-cover object-center rounded-full h-40 w-40"/>
 
         <div className="gap-2 md:gap-3 flex flex-col">
