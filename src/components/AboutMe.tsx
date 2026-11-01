@@ -4,10 +4,11 @@ export function AboutMe(){
     return(
         <section className="p-5 text-justify">
             <p>
-                Hi! I am Jhovany {Age()} years old from México. Currently pursuing an informatic engineering major.
+                Hi! I am Jhovany {Age()} years old from México. I'm currently pursuing a degree in informatic engineering.
                 <br />
-                Since I was a kid I've been amazed by tech world, exploring new alternatives and ways to keep learning have made me keep the spirit to go forward. 
-                I consider myself as some who can always see the good and appreciate any feedback and insights 
+                Ever since I was a kid, I've been fascinated by the world of technology. Exploring new possibilities, discovering alternatives of doing,
+                and continuosly learning have always motivated me to keep moving forward. 
+                I consider myself someone who can always see the positive side of things and genuinely appreciates feedback, different perspectives, and insights that help me grow
             </p>
         </section>
     )
